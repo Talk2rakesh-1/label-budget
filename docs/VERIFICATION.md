@@ -25,3 +25,7 @@ Reviewed input handling, bounds, dependencies, data flows, error output and CI p
 No physical-device, manual VoiceOver, penetration, external user-acceptance or long-duration performance testing has been performed. No App Store release, Docker service, backend, or hosted API exists, so those deployment checks are not applicable. LinkedIn text is a draft, not a published post.
 
 Initial CI on Python 3.10 passed application tests but failed the development-dependency audit: its resolver selected filelock 4.1.0 with reported advisories. Supported Python was raised to 3.11+, and the patched development dependency is explicitly pinned to 4.2.6. CI now verifies 3.11 and 3.13. No advisory suppression was added.
+
+## GitHub verification
+
+[CI run 41366568377](https://github.com/Talk2rakesh-1/label-budget/actions/runs/41366568377) passed on Python 3.11 and 3.13, including installation, CLI smoke, lint/format, strict typing, tests, Bandit and runtime/development requirement audits. [Full-history scan](https://github.com/Talk2rakesh-1/label-budget/actions/runs/41366568345) passed. Verified application commit: `c2292bc`.
