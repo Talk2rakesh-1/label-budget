@@ -8,8 +8,8 @@
 | Security static analysis | PASS: Bandit, no findings |
 | Runtime dependency scan | PASS: empty runtime requirements |
 | Development dependency scan | PASS: fresh environment, no known vulnerabilities |
-| Package installation / installed CLI | Pending final smoke check |
-| Full-history secret scan | Pending initial Git commit; result will be recorded before publication |
+| Package installation / installed CLI | PASS: wheel build, installation and installed CLI completed |
+| Full-history secret scan | PASS: Gitleaks 8.30.1 scanned all commits before publication; CI scans future history |
 | License review | Original MIT fixtures/source; no bundled external dataset/model |
 
 The previous tool environment had six advisories affecting its old pip. It was replaced for this project with a fresh environment using pip 26.2.2, and the new environment audit passed. No application runtime vulnerability was found by that check.
