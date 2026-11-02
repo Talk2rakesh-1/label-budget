@@ -8,7 +8,7 @@ A local active-learning CLI that selects a small batch of examples for **human a
 
 ## Try it
 
-Python 3.10+:
+Python 3.11+:
 
 ```sh
 python -m label_budget examples/shapes.json --budget 3
