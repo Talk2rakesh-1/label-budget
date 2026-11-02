@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=78.1.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "label-budget"
+version = "0.1.0"
+description = "Local active-learning batch selection for human annotation"
+requires-python = ">=3.10"
+license = "MIT"
+
+[project.scripts]
+label-budget = "label_budget.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["label_budget*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.mypy]
+python_version = "3.10"
+strict = true

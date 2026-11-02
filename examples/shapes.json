@@ -1,0 +1,110 @@
+{
+  "labeled": [
+    {
+      "id": "seed-0",
+      "features": [
+        -2,
+        -1
+      ],
+      "label": "round"
+    },
+    {
+      "id": "seed-1",
+      "features": [
+        -1,
+        -2
+      ],
+      "label": "round"
+    },
+    {
+      "id": "seed-2",
+      "features": [
+        -2,
+        -2
+      ],
+      "label": "round"
+    },
+    {
+      "id": "seed-3",
+      "features": [
+        2,
+        1
+      ],
+      "label": "angular"
+    },
+    {
+      "id": "seed-4",
+      "features": [
+        1,
+        2
+      ],
+      "label": "angular"
+    },
+    {
+      "id": "seed-5",
+      "features": [
+        2,
+        2
+      ],
+      "label": "angular"
+    }
+  ],
+  "pool": [
+    {
+      "id": "candidate-0",
+      "features": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "candidate-1",
+      "features": [
+        0.01,
+        0
+      ]
+    },
+    {
+      "id": "candidate-2",
+      "features": [
+        -1.5,
+        -1.5
+      ]
+    },
+    {
+      "id": "candidate-3",
+      "features": [
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "id": "candidate-4",
+      "features": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "candidate-5",
+      "features": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "candidate-6",
+      "features": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "candidate-7",
+      "features": [
+        0,
+        -1
+      ]
+    }
+  ]
+}
